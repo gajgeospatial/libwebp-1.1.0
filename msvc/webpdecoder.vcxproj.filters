@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\alpha_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\buffer_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\frame_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\idec_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\io_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\quant_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\tree_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\vp8_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\vp8l_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\webp_dec.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\alpha_processing.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\cpu.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\dec.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\dec_clip_tables.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\filters.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\lossless.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\rescaler.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\upsampling.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\yuv.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\alpha_processing_sse41.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\dec_sse41.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\upsampling_sse41.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\yuv_sse41.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\alpha_processing_sse2.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\dec_sse2.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\filters_sse2.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\lossless_sse2.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\rescaler_sse2.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\upsampling_sse2.obj" />
+    <Object Include=".\webpdspdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\yuv_sse2.obj" />
+    <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\bit_reader_utils.obj" />
+    <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\color_cache_utils.obj" />
+    <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\filters_utils.obj" />
+    <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\huffman_utils.obj" />
+    <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\quant_levels_dec_utils.obj" />
+    <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\rescaler_utils.obj" />
+    <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\random_utils.obj" />
+    <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\thread_utils.obj" />
+    <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\utils.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D87ED1E7-AB95-3B27-A725-8B468BE92A66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
